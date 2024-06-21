@@ -1,12 +1,123 @@
 <!DOCTYPE html>
+<html lang="fr">
 
 <head>
-<title>WEB SITE DE Git BACHIRI Imane ZENNOUR Chaimae</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB SITE DE Git BACHIRI Imane ZENNOUR Chaimae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 1rem;
+        }
+
+        .introduction {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .authors {
+            margin-top: 0;
+        }
+
+        .section-title {
+            color: #333;
+            margin-top: 2rem;
+        }
+
+        .content {
+            line-height: 1.6;
+        }
+
+        .highlight {
+            color: red;
+        }
+
+        .highlight-blue {
+            color: blue;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 
 <body>
-   <b><p> Le fantastique guide de Git </p> </b> 
-    <p>par nom de <b style="color: red;">A,</b> nom de <b style="color: blue;">B</b> </p>
+    <header>
+        <h1>Le fantastique guide de Git</h1>
+    </header>
+
+    <main>
+        <section class="introduction">
+            <p>Bienvenue sur le guide ultime pour comprendre et maîtriser Git.</p>
+            <p class="authors">par nom de <b class="highlight">A</b>, nom de <b class="highlight-blue">B</b></p>
+        </section>
+
+        <section>
+            <h2 class="section-title">Introduction à Git</h2>
+            <p class="content">Git est un système de contrôle de version distribué qui permet de suivre les modifications
+                du code source au cours du développement logiciel. Il est conçu pour coordonner le travail entre
+                les programmeurs, mais peut également être utilisé pour suivre les modifications dans tout type de fichier.</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">Commandes Git de Base</h2>
+            <ul class="content">
+                <li><b>git init</b> - Initialiser un nouveau dépôt Git.</li>
+                <li><b>git clone</b> - Cloner un dépôt distant.</li>
+                <li><b>git add</b> - Ajouter des modifications à l'index.</li>
+                <li><b>git commit</b> - Enregistrer des modifications avec un message de commit.</li>
+                <li><b>git status</b> - Afficher l'état des modifications.</li>
+                <li><b>git push</b> - Envoyer les commits locaux vers le dépôt distant.</li>
+                <li><b>git pull</b> - Récupérer et fusionner les modifications depuis le dépôt distant.</li>
+                <li><b>git fetch</b> - Récupérer les modifications depuis le dépôt distant sans fusionner.</li>
+                <li><b>git merge</b> - Fusionner une branche dans la branche courante.</li>
+                <li><b>git stash</b> - Mettre en réserve des modifications locales non commitées.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">Avantages de Git</h2>
+            <p class="content">Git offre de nombreux avantages, notamment :</p>
+            <ul class="content">
+                <li>Suivi complet de l'historique des modifications.</li>
+                <li>Collaboration facile avec d'autres développeurs.</li>
+                <li>Gestion efficace des branches et des merges.</li>
+                <li>Performances rapides pour la plupart des opérations.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 BACHIRI Imane & ZENNOUR Chaimae. Tous droits réservés.</p>
+    </footer>
 </body>
 
 </html>
