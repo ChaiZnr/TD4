@@ -1,1 +1,44 @@
-<b>tp4 github </b>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Liste des Commandes Git</title>
+</head>
+<body>
+    <h1>Commandes Git Courantes</h1>
+    <dl>
+        <dt>git init</dt>
+        <dd>Initialise un nouveau dépôt Git. Cela crée un nouveau sous-dossier .git dans le répertoire courant.</dd>
+
+        <dt>git clone [url]</dt>
+        <dd>Clone un dépôt existant à partir de l'URL fournie. Cela copie tous les fichiers du dépôt distant dans un nouveau répertoire local.</dd>
+
+        <dt>git add [fichier]</dt>
+        <dd>Ajoute un fichier à l'index, le préparant pour le prochain commit. Utilisez '.' pour ajouter tous les fichiers modifiés.</dd>
+
+        <dt>git commit -m "[message]"</dt>
+        <dd>Enregistre les modifications apportées aux fichiers dans le dépôt, avec un message descriptif expliquant les modifications.</dd>
+
+        <dt>git status</dt>
+        <dd>Affiche l'état du répertoire de travail et de l'index. Montre les modifications, les fichiers non suivis, et les fichiers prêts à être commités.</dd>
+
+        <dt>git push [alias] [branche]</dt>
+        <dd>Pousse les modifications des branches locales vers un dépôt distant. 'alias' est généralement 'origin', et 'branche' est la branche à pousser.</dd>
+
+        <dt>git pull</dt>
+        <dd>Tire et fusionne les modifications d'une branche distante dans la branche locale courante.</dd>
+
+        <dt>git fetch</dt>
+        <dd>Récupère toutes les branches du dépôt distant mais ne fusionne aucune modification dans les branches locales.</dd>
+
+        <dt>git merge [branche]</dt>
+        <dd>Fusionne les modifications d'une branche spécifiée dans la branche active. Utilisé après un 'git fetch' pour combiner les branches distantes.</dd>
+
+        <dt>git stash</dt>
+        <dd>Met en réserve les modifications locales non commitées, permettant un changement temporaire de branche sans perdre les modifications.</dd>
+
+        <dt>git log</dt>
+        <dd>Affiche l'historique des commits pour la branche courante, listant les commits, les auteurs, les dates et les messages de commit.</dd>
+    </dl>
+</body>
+</html>
